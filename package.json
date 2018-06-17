@@ -1,0 +1,13 @@
+{
+  "name": "project-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iSyn/project-template.git",
+  "author": "Synclair Wang <synclairwang11@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
