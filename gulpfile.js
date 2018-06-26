@@ -1,5 +1,7 @@
 let gulp = require('gulp')
 let sass = require('gulp-sass')
+let plumber = require('gulp-plumber')
+let autoprefixer = require('gulp-autoprefixer')
 let browserSync = require('browser-sync').create()
 
 gulp.task('browserSync', () => {
@@ -13,7 +15,12 @@ gulp.task('browserSync', () => {
 
 gulp.task('sass', () => { // create a gulp task called sass
     return gulp.src('app/scss/**/*.scss')  // tells gulp what files are needed
+        .pipe(plumber())
         .pipe(sass()) // sends the files through gulp sass
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest('app/css')) // destination of files
         .pipe(browserSync.reload({
             stream: true
