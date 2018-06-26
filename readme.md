@@ -18,7 +18,6 @@ install dependencies by typing in terminal:
 yarn install OR npm install
 
 ```
-
 And finally, run gulp
 
 ```
