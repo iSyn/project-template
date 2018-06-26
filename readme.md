@@ -12,10 +12,17 @@ Contains:
 
 To use, clone or download this repo.
 
-Then type:
+install dependencies by typing in terminal:
 
 ```
-yarn install
+yarn install OR npm install
+
+```
+
+And finally, run gulp
+
+```
+gulp watch
 ```
 
 Start hackin'
