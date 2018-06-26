@@ -15,8 +15,9 @@ To use, clone or download this repo.
 install dependencies by typing in terminal:
 
 ```
-yarn install OR npm install
-
+yarn install
+OR
+npm install
 ```
 And finally, run gulp
 
