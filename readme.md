@@ -10,5 +10,5 @@ Then type:
 yarn install
 ```
 
-Then start building
+Start hackin'
 
