@@ -1,6 +1,9 @@
-@import "./common/variables";
-@import "./common/mixins";
 
-@import "./components/test";
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-@import "./pages/test";
+@import './common/variables';
+@import './common/mixins';
+
+@import './pages/home';
+
+@import './templates/header';
