@@ -11,5 +11,8 @@
     "gulp-autoprefixer": "^5.0.0",
     "gulp-plumber": "^1.2.0",
     "gulp-sass": "^4.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0"
   }
 }
