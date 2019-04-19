@@ -1,8 +1,3 @@
-// REQUIRE DOTENV
-// to use, create a .env file
-require('dotenv').config()
-
-
 // DEFINING VARIABLES
 let gulp = require('gulp')
 let sass = require('gulp-sass')
